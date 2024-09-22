@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -19,16 +19,16 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
             <ul>
               <li className="mb-2">
-                <a href="/" className="text-gray-400 hover:text-white">Home</a>
+                <Link href="/" className="text-gray-400 hover:text-white">Home</Link>
               </li>
               <li className="mb-2">
-                <a href="/about" className="text-gray-400 hover:text-white">About Us</a>
+                <Link href="/about" className="text-gray-400 hover:text-white">About Us</Link>
               </li>
               <li className="mb-2">
-                <a href="/services" className="text-gray-400 hover:text-white">Services</a>
+                <Link href="/services" className="text-gray-400 hover:text-white">Services</Link>
               </li>
               <li className="mb-2">
-                <a href="/contact" className="text-gray-400 hover:text-white">Contact</a>
+                <Link href="/contact" className="text-gray-400 hover:text-white">Contact</Link>
               </li>
             </ul>
           </div>
@@ -39,17 +39,17 @@ const Footer = () => {
             <ul className="flex flex-wrap space-x-4">
               <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                  <i className="fab fa-facebook-f"></i> Facebook
+                  Facebook
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                  <i className="fab fa-twitter"></i> Twitter
+                  Twitter
                 </a>
               </li>
               <li>
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                  <i className="fab fa-instagram"></i> Instagram
+                  Instagram
                 </a>
               </li>
             </ul>
