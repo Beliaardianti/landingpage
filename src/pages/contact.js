@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Image from 'next/image'; // Import Image
 
 const Contact = () => {
   return (
@@ -9,10 +10,13 @@ const Contact = () => {
       
       <section className="bg-white flex-grow">
         <div className="relative h-96 flex items-center justify-center">
-          <img 
+          {/* Menggunakan next/image untuk gambar */}
+          <Image 
             src="/assets/contact.jpg" 
             alt="Contact" 
-            className="w-full h-full object-cover"
+            layout="fill" // Ini memungkinkan gambar memenuhi container
+            objectFit="cover" // Menjaga proporsi gambar
+            priority // Mengutamakan pemuatan gambar
           />
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="absolute text-center">
