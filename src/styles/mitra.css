@@ -1,0 +1,12 @@
+/* Menambahkan jarak ke pagination di Swiper */
+.swiper-pagination {
+    margin-top: 20px; /* Tambahkan jarak di atas pagination */
+  }
+  
+  /* Sesuaikan ukuran pagination bullet jika perlu */
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #000; /* Ganti warna bullet jika diinginkan */
+  }
+  
